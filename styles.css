@@ -133,7 +133,7 @@ header .navbar.active{
 #search-form label{
     color:#fff;
     cursor: pointer;
-    font-size: 3 rem;
+    font-size: 3rem;
 }
 
 #search-form label:hover{
@@ -167,6 +167,9 @@ header .navbar.active{
         border-bottom: .1rem solid rgba(0,0,0,.2);
         padding:1rem;
         clip-path: polygon(0 0,100% 0,100% 0,0 0);
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0,100% 100%,0% 100%);
     }
     header .navbar a{
         display:block;
