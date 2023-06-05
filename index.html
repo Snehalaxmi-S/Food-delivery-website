@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -37,52 +37,153 @@
 
 
     <!-- home Section starts -->
-    <section class="'home" id="home">
-            <div class="home-slider">
-                <div class="wrapper">
-                    <div class="slide">
+    <section class="home" id="home">
+            <div class="swiper-container home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
                         <div class="content">
                             <span>Our Special Dish</span>
                             <h3>Hot Chicken</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                                 ut labore et dolore magna aliqua. Eros in cursus turpis massa tincidunt dui. </p>
-                            <a href="#" class="btn"></a>
+                            <a href="#" class="btn">order now</a>
                         </div>
                         <div class="image">
                             <img src="images/img1.jpg" alt="image">
                         </div>
                     </div>
-                    <div class="slide">
+                    <div class="swiper-slide slide">
                         <div class="content">
                             <span>Our Special Dish</span>
                             <h3>Our Spicy Noodles</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                                 ut labore et dolore magna aliqua. Eros in cursus turpis massa tincidunt dui. </p>
-                            <a href="#" class="btn"></a>
+                            <a href="#" class="btn">order now</a>
                         </div>
                         <div class="image">
                             <img src="images/img4.jpg" alt="image">
                         </div>
                     </div>
-                    <div class="slide">
+                    <div class="swiper-slide slide">
                         <div class="content">
                             <span>Our Special Dish</span>
                             <h3>Biriyani</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                                 ut labore et dolore magna aliqua. Eros in cursus turpis massa tincidunt dui. </p>
-                            <a href="#" class="btn"></a>
+                            <a href="#" class="btn">order now</a>
                         </div>
                         <div class="image">
                             <img src="images/img3.jpg" alt="image">
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
  
     
     </section>
     <!-- home section ends -->
 
+    <!--Dishes section starts-->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish1.jpeg" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish2.webp" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish3.jpeg" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish4.jpeg" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish5.webp" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish6.webp" alt="">
+                <h3>tasty food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Dishes section ends-->
 
 
 
@@ -92,7 +193,7 @@
 
 
 
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
     <script src="script.js"></script>
