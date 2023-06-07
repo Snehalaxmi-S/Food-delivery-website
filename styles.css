@@ -270,7 +270,8 @@ header .navbar.active{
     width: 25rem;
 }
 
-.dishes .box-container{
+.dishes .box-container,
+.menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(28rem, 1fr));
     gap: 1.5rem;
@@ -278,7 +279,8 @@ header .navbar.active{
     margin-right: 5rem;
 }
 
-.dishes .box-container .box{
+.dishes .box-container .box,
+.menu .box-container .box{
     padding: 2.5rem;
     background: #fff;
     border-radius: .5rem;
@@ -290,7 +292,9 @@ header .navbar.active{
 }
 
 .dishes .box-container .box .fa-heart,
-.dishes .box-container .box .fa-eye{
+.dishes .box-container .box .fa-eye,
+.menu .box-container .box .fa-heart,
+.menu .box-container .box .fa-eye{
     position: absolute;
     top: 1.5rem;
     background: #eee;
@@ -302,41 +306,52 @@ header .navbar.active{
     color: var(--black);
 }
 .dishes .box-container .box .fa-heart:hover,
-.dishes .box-container .box .fa-eye:hover{
+.dishes .box-container .box .fa-eye:hover,
+.menu .box-container .box .fa-heart:hover,
+.menu .box-container .box .fa-eye:hover{
     background: var(--green);
     color: #fff;
 }
 
-.dishes .box-container .box .fa-heart{
+.dishes .box-container .box .fa-heart,
+.menu .box-container .box .fa-heart{
     right: -15rem;
 }
-.dishes .box-container .box .fa-eye{
+.dishes .box-container .box .fa-eye,
+.menu .box-container .box .fa-eye{
     left: -15rem;
 }
-.dishes .box-container .box:hover .fa-heart{
+.dishes .box-container .box:hover .fa-heart,
+.menu .box-container .box:hover .fa-heart{
     right: 1.5rem;
 }
-.dishes .box-container .box:hover .fa-eye{
+.dishes .box-container .box:hover .fa-eye,
+.menu .box-container .box:hover .fa-eye{
     left: 1.5rem;
 }
 
-.dishes .box-container .box img{
+.dishes .box-container .box img,
+.menu .box-container .box img{
     height: 17rem;
     margin: 1rem 0;
 }
-.dishes .box-container .box h3{
+.dishes .box-container .box h3,
+.menu .box-container .box h3{
     color: var(--black);
     font-size: 2.5rem;
 }
-.dishes .box-container .box .stars{
+.dishes .box-container .box .stars,
+.menu .box-container .box .stars{
     padding: 1rem 0;
 }
-.dishes .box-container .box .stars i{
+.dishes .box-container .box .stars i,
+.menu .box-container .box .stars i{
     font-size: 1.7rem;
     color: var(--green);
 }
 
-.dishes .box-container .box span{
+.dishes .box-container .box span,
+.menu .box-container .box span{
     color: var(--green);
     font-weight: bolder;
     margin-right: 1rem;
